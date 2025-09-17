@@ -1,0 +1,97 @@
+body{
+  background-color: skyblue;
+}
+
+.container{
+  background-color:black;
+  width : 400px;
+  height: 600px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  margin: auto;
+  margin-top:80px;
+  margin-bottom: 0px;
+  border: 20px black solid;
+  border-radius: 75px;
+}
+.screen-container{
+  width : 340px;
+  height: 450px;
+  border: 8px rgb(214, 187, 237) solid;
+  border-radius: 25px;
+  padding-top: 50px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  background-color: #f4f5f388;
+}
+
+.input-container{
+  background-color: green;
+  width : 280px;
+  height: 200px;
+  border: 28px rgb(50, 4, 4) solid;
+  border-radius :70px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  margin: 0 0 290px 0;
+  background: green;
+}
+.output-container{
+background-color: rgb(109, 207, 109);
+width : 280px;
+height: 200px;
+position: absolute;
+margin-top:200px;
+border: 21px black solid;
+border-radius :40px;
+display: flex;
+align-items:center;
+text-align:center;
+
+}
+#user-input{
+  width:200px;
+  height:50px;
+  position:absolute;
+  padding: 5px;
+  margin : 0 0 90px 0;
+  border : 0px black solid;
+  border-radius: 25px;
+  text-align:center;
+}
+
+#mark{
+     position:absolute;
+     color:yellow;
+     margin-bottom:540px;
+}
+#clear-btn,#check-btn{
+   height: 80px;
+   width:  100px;
+   text-align:center;
+   border: 5px;
+   border-radius :5px;
+   background-color:rgb(202, 24, 24);
+   margin-top: 80px;
+   margin-right: 20px;
+   margin-left: 20px;
+   box-shadow: 0 9px #999;
+   cursor: pointer;
+   outline: none;
+}
+#clear-btn:hover,#check-btn:hover {background-color: #3e8e41}
+
+#clear-btn:active,#check-btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+h1{
+  text-align:center;
+  border-radius : 34px;
+
+}
